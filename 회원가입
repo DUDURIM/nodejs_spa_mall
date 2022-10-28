@@ -1,0 +1,25 @@
+- 회원 가입
+- 로그인
+- 회원 정보 수정
+- 회원 탈퇴
+- 게시글 작성
+- 게시글 목록 조회
+    - Request
+        - Method: GET
+        - URL: / articles
+    - Response
+        - Status code: 200
+        - Payload: { articleId: number, content: string, authorId: number }[]
+- 게시글 상세 조회
+    - Request
+        - Method: GET
+        - URL: / articles/:artucleId
+    - Response
+        - Status code: 200
+        - Payload: { articleId: number, content: string, authorId: number }
+- 게시글 수정
+- 게시글 삭제
+- 특정 게시글에 댓글 작성
+- 특정 게시글에 달린 댓글 목록 조회
+- 특정 게시글에 달린 댓글 수정
+- 특정 게시글에 달린 댓글 삭제
